@@ -1,0 +1,331 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  boox-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'open-Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0 auto;
+  max-width: 1200px;
+  background: black;
+}
+
+header.c-site-header {
+  display: grid;
+ padding: 10px;
+}
+
+
+.c-site-header .logo{
+  text-align: left;
+}
+
+  #nav{ 
+ display: block;
+ font-size: 14px;
+}
+
+
+ #nav ul{
+  list-style: none;
+  margin-left: 0; 
+}
+
+li {
+  color: #FFF;
+}
+a {
+  color: #B1D;
+  padding: 10px;
+  display: block;
+  font-family: 'robote' sans-serif;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+a:hover {
+  color: #FFF;
+}
+a.active {
+  color: #FFF;
+}
+h1 {
+  color: #FFF;
+  font-size: 1.5rem;
+}
+
+span {
+  color: #8F8;
+  font-size: 1.5rem;
+}
+h3 {
+  color: #8F0;
+  margin: 0 0 10px 0;
+  text-align: center;
+  padding: 7px;
+  font-weight: bold;
+  background: rgba(0, 0, 0, .95);
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2px;
+}
+#topdiv{
+  margin: 0;
+  background: #FFF;
+  padding: 1px;
+}
+
+#myimg {
+  width: 100%;
+  height: 100hv;
+  display: block;
+  object-fit: cover;
+}
+
+#mypara {
+  text-indent: 25px;
+  width: 100%;
+  display: grid;
+  text-align: justify;
+  background: white;
+}
+  
+p {
+  padding: 15px;
+  border-radius: 5px;
+  background: white;
+}
+
+p::first-letter {
+  color: green;
+  font-family: cursive, sans-serif;
+  margin-right: 2px;
+  font-size: 2.2rem;
+}
+
+#fram{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  background: #fff;
+}
+
+#vcontainer {
+  max-width: 100%;
+  width: 100%;
+  height: 0;
+  padding-bottom: 29.25%;
+  position: relative;
+}
+
+#vcontainer iframe {
+  max-width: 99.90%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  letf: 0;
+}
+
+.mvp{
+  display: grid;
+  width: 100%;
+  height: calc(100vh-100px);
+  grid-template-columns: 1fr 2fr;
+  justify-content: center;
+  align-items: center;
+  background-color: #ABAD90;
+}
+
+.last{
+  grid-column: 1/2;
+  place-items: center;
+  padding: .5rem;
+  margin: 0 auto;
+}
+
+.vp{
+  grid-column: 2/3;
+  margin: 0 auto;
+  padding: 1rem;
+  place-items: center;
+}
+
+#list{
+  display: block;
+  list-style: none;
+  padding: 5px;
+  margin-left: 0;
+  font-familly: Roboto, sans-serif;
+  background-color: #AD2F0E9;
+}
+
+#button{
+  
+  display: block;
+  padding: .5rem;
+  cursor: pointer;
+  border: 0;
+  outline: none;
+  font-size: .8rem;
+  border: 1px solid white;
+  background-color: darkgrey;
+  text-transform: capitalize;
+  font-family: roboto sans-serif;
+  
+}
+
+#btn{
+  display: block;
+  padding: .3rem .4rem;
+  cursor: pointer;
+  border: 0;
+  outline: none;
+  font-size: .8rem;
+  border: 1px solid white;
+  background-color: darkgrey;
+  text-transform: capitalize;
+  font-family: roboto sans-serif;
+}
+
+input[type='text']{
+  padding: .259rem;
+  font-size: 1rem;
+  font-family: roboto sans-serif;
+  margin-bottom: .499rem;
+}
+
+#rand {
+  display: block;
+  padding: .3rem;
+  cursor: pointer;
+  border: 0;
+  outline: none;
+  font-size: .8rem;
+  border: 1px solid white;
+  background-color: darkgrey;
+  text-transform: capitalize;
+  font-family: roboto sans-serif;
+}
+
+.any{
+  color: blue;
+}
+
+#carousel {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px auto;
+  border-bottom: 2px solid white;
+}
+
+#prev {
+  border: 1px solid white;
+  margin: 2px;
+  padding: .5rem;
+  float:left;
+  widht: 10px;
+  cursor: pointer;
+}
+#next {
+  border: 1px solid white;
+  margin: 2px;
+  cursor: pointer;
+  padding: .5rem;
+  float: right;
+}
+
+.btn_container {
+  display: flex;
+   padding: 1rem;
+}
+
+#textarea{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align items: center;
+  margin: 10px auto;
+  background-color: black;
+}
+form{
+  margin: 10px auto;
+}
+
+#btn-textarea {
+  display: block;
+  padding: .5rem;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  color: #FFF;
+  width: 20%;
+  magrin: 15px;
+  font-size: 1rem;
+  background-color: #AACC95;
+}
+
+
+footer.c-site-footer {
+  max-width: 1200px;
+  width: 100%;
+  text-align: right;
+  background: #8FF;
+  }
+
+@media (min-width: 49rem){
+  
+  #mypara{
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  span{
+    font-size: 2rem;
+  }
+  .c-site-header{
+     grid-template-columns: repeat(2, 1fr);
+  }
+  .c-site-header .logo{
+    margin-left: 10px;
+  }
+  .c-site-header #nav {
+    height: auto !important;
+    font-size: 19px;
+  }
+  
+  #nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+
+
+
+
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
